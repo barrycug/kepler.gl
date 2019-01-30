@@ -84,9 +84,7 @@ const LIBRARY_BUNDLE_CONFIG = env => ({
     fs: 'empty'
   },
 
-  plugins: [],
-
-  watch: true
+  plugins: []
 });
 
 module.exports = env => LIBRARY_BUNDLE_CONFIG(env);
